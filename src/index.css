@@ -1,0 +1,4 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-page text-ink font-sans antialiased}
+h1,h2,h3{@apply text-navy font-semibold}
+:focus-visible{outline:2px solid #155EEF;outline-offset:2px}
